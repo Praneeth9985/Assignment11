@@ -1,0 +1,55 @@
+body{
+    font-family:  sans-serif;
+}
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+        
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+    .fixed-top {
+        width: 98%;
+        left: 1%;
+        top: 2%;
+     }
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    border:2px solid white;
+    background: transparent;
+  }
+
+.carousel-indicators li :focus{
+    background-color: white;
+}
+
+.col-lg-9 h4{
+    text-align: center;
+}
+
+  
+.scrollspy{
+    height:300px; 
+    overflow-y: scroll;
+    
+}
+.scrollspy::-webkit-scrollbar {
+    background: #fff;
+    width: 15px;
+    height: 15px; 
+
+}
+
+
